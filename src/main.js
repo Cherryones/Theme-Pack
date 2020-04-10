@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 
 import './plugins/element.js'
-import './assets/style/comm-ui.scss'
+import './assets/style/comm-ui'
 
 Vue.config.productionTip = false
 
