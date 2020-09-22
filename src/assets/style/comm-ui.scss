@@ -1,3 +1,50 @@
-.el-button {
-  color: $color;
+.login-bg {
+  background: url(#{$img-path}login_banner.jpg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.login-form {
+  background: $login-background;
+
+  .el-tabs {
+    width: 300px;
+
+    .el-tabs__header {
+      margin-bottom: 45px;
+    }
+
+    .el-tabs__active-bar {
+      width: 150px !important;
+    }
+
+    .el-tabs__item {
+      padding: 0;
+      width: 150px;
+      font-size: 22px;
+      text-align: center;
+
+      &:hover {
+        color: #ffffff
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+
+.el-tabs__item {
+  color: $el-tab-color;
+}
+
+.el-tabs__item.is-active {
+  color: $el-tab-active-color;
+}
+
+.el-tabs__active-bar {
+  background-color: $el-tab-active-color;
 }

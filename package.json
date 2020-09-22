@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service build --mode dev",
+    "build": "vue-cli-service build --mode prod",
+    "lint": "vue-cli-service lint",
     "dev": "vue-cli-service serve --mode dev",
     "test": "vue-cli-service build --mode test",
-    "verify": "vue-cli-service build --mode verify",
-    "build": "vue-cli-service build --mode prod",
-    "lint": "vue-cli-service lint"
+    "verify": "vue-cli-service build --mode verify"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -29,6 +29,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "image-webpack-loader": "^6.0.0",
+    "node-sass": "^4.9.2",
     "sass": "^1.26.3",
     "sass-loader": "^8.0.2",
     "vue-cli-plugin-element": "^1.0.1",
