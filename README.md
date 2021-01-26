@@ -1,4 +1,4 @@
-# merch-platform
+# 一个简单的打包demo，主要实现在vue.config.js
 
 ## Project setup
 
